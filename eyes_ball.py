@@ -45,8 +45,6 @@ if st.button('Activate',use_container_width=True):
                     pyautogui.click()
                     pyautogui.sleep(1)
             # cv2.imshow('Eye Controlled Mouse', frame)
-            if breach == True:
-                break
 
     cam.release()   
     cv2.destroyAllWindows() 
